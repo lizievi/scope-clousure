@@ -15,7 +15,7 @@ function bestFruit() {
 
 bestFruit()
 
-//Otra forma de crear otra variable global es cuando se declara sin asignar (country sin el var, let o const), por defecto pasa a ser global
+//Otra forma de crear otra variable global es cuando no se declara (country sin el var, let o const), por defecto pasa a ser global
 function countries() {
   country = "Colombia"; //sin var, let o const es global
   console.log(country); // Colombia
